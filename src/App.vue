@@ -1,5 +1,6 @@
 <template>
   <div class="email-box">
+    <h2>高级数据库系统</h2>
     <EmailValidation></EmailValidation>
   </div>
 </template>
