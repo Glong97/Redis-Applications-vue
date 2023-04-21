@@ -4,7 +4,7 @@ module.exports = defineConfig({
   devServer: {
     proxy: {
         '/api': {
-            // 此处的写法，目的是为了 将 /api 替换成 https://www.baidu.com/
+            // 此处的写法，目的是为了 将 /api 替换成你所访问的服务器地址
             target: 'http://localhost:8204/api',
             // 允许跨域
             changeOrigin: true,
