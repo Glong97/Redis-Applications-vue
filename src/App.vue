@@ -11,9 +11,6 @@
 import Login from './components/Login.vue';
 import Result from './components/Result.vue';
 export default {
-  created() {
-    document.title = '邮箱验证';
-  },
   components: {
     Login,
     Result
